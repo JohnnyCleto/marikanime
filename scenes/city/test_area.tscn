@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cjapg2gou08kx"]
+
+[ext_resource type="PackedScene" uid="uid://pit0tgd15s36" path="res://scenes/player/player.tscn" id="1_q8wp5"]
+
+[node name="TestArea" type="Node2D" unique_id=1504320561]
+
+[node name="World" type="Node" parent="." unique_id=16651288]
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1816695704]
+color = Color(0, 0, 1, 1)
+polygon = PackedVector2Array(-993, -643, -1013, 696, 1256, 721, 1255, -662)
+
+[node name="Player" parent="." unique_id=1738159995 instance=ExtResource("1_q8wp5")]

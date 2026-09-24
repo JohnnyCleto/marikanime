@@ -1,13 +1,32 @@
 [gd_scene format=3 uid="uid://cjapg2gou08kx"]
 
 [ext_resource type="PackedScene" uid="uid://pit0tgd15s36" path="res://scenes/player/player.tscn" id="1_q8wp5"]
+[ext_resource type="PackedScene" uid="uid://1qv6bpthbe0d" path="res://scenes/enemies/dummy_enemy.tscn" id="2_rifab"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ufgfk"]
+size = Vector2(200, 40)
 
 [node name="TestArea" type="Node2D" unique_id=1504320561]
 
 [node name="World" type="Node" parent="." unique_id=16651288]
 
-[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1816695704]
+[node name="Fundo" type="Polygon2D" parent="." unique_id=1816695704]
 color = Color(0, 0, 1, 1)
 polygon = PackedVector2Array(-993, -643, -1013, 696, 1256, 721, 1255, -662)
 
+[node name="ObjetoReferencia" type="Polygon2D" parent="." unique_id=32452458]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1848188944]
+position = Vector2(0, -150)
+
+[node name="Polygon2D" type="Polygon2D" parent="StaticBody2D" unique_id=1802236047]
+color = Color(1, 1, 0, 1)
+polygon = PackedVector2Array(-101, -20, 98, -20, 99, 19, -101, 19)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=571133013]
+shape = SubResource("RectangleShape2D_ufgfk")
+
 [node name="Player" parent="." unique_id=1738159995 instance=ExtResource("1_q8wp5")]
+
+[node name="dummy_enemy" parent="." unique_id=943873772 instance=ExtResource("2_rifab")]
+position = Vector2(90, 2)

@@ -5,6 +5,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gatd3"]
 size = Vector2(32, 48)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ufgfk"]
+size = Vector2(32, 24)
+
 [node name="Player" type="CharacterBody2D" unique_id=1738159995]
 script = ExtResource("1_8afob")
 
@@ -17,3 +20,14 @@ color = Color(1, 0.06666667, 0, 1)
 polygon = PackedVector2Array(-16, -24, 15, -24, 16, 24, -16, 24)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=791426921]
+
+[node name="WeaponPivot" type="Node2D" parent="." unique_id=900057351]
+
+[node name="Hitbox" type="Area2D" parent="WeaponPivot" unique_id=1184295682]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WeaponPivot/Hitbox" unique_id=778350150]
+position = Vector2(24, 0)
+shape = SubResource("RectangleShape2D_ufgfk")
+
+[node name="SwordSprite" type="Polygon2D" parent="WeaponPivot/Hitbox" unique_id=647096256]
+polygon = PackedVector2Array(8, -12, 40, -12, 41, 12, 8, 12)

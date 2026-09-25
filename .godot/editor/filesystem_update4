@@ -1,3 +1,7 @@
+res://scenes/city/city.tscn
+res://scripts/systems/dungeon_entrance.gd
+res://scenes/city/dungeon.tscn
+res://scenes/enemies/dummy_enemy.tscn
 res://scenes/player/player.tscn
 res://scenes/city/test_area.tscn
-res://scripts/player/player.gd
+res://scenes/systems/dungeon_entrance.tscn

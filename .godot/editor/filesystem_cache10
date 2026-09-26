@@ -1,27 +1,57 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1790103256
+::res://::1790364531
 icon.svg::CompressedTexture2D::6204851876172423689::1790098680::1790098686::1::::<><><>0<>0<>0f258ecbb457f899f02beb4c033bdddb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1790098842
+README.md::TextFile::-1::1790363401::0::1::::<><><>0<>0<><>::
+::res://assets/::1790356876
 ::res://assets/audio/::1790098842
 ::res://assets/characters/::1790098773
 ::res://assets/enemies/::1790098791
 ::res://assets/environments/::1790098801
 ::res://assets/items/::1790098819
+::res://assets/sprite/::1790356954
+::res://assets/sprite/Texture/::1790356957
+TX Plant.png::CompressedTexture2D::7832287528923120842::1729136304::1790356957::1::::<><><>0<>0<>5fb944c27d35eb1307391a3647e42132<>res://.godot/imported/TX Plant.png-3a45603a19dbc6edee84f3291fab59c6.ctex::
+TX Player.png::CompressedTexture2D::192491607285507415::1729136304::1790356957::1::::<><><>0<>0<>e00fc032f22f5a2faa7236169d2ae941<>res://.godot/imported/TX Player.png-36b00f8653f4eaad81830865c1755b88.ctex::
+TX Props.png::CompressedTexture2D::7748306344157087174::1729136304::1790356957::1::::<><><>0<>0<>29d73a6a5e3f9389cb902084d6b0a7ef<>res://.godot/imported/TX Props.png-d038644149d50ece3b1d9efab450f4bb.ctex::
+TX Shadow Plant.png::CompressedTexture2D::371025482650899689::1729136304::1790356957::1::::<><><>0<>0<>74171f103d121b8c9110f3f13f4417a9<>res://.godot/imported/TX Shadow Plant.png-bd14c206d51f6fbeebeb87ea72866ec0.ctex::
+TX Shadow.png::CompressedTexture2D::8960155382685202496::1729136304::1790356957::1::::<><><>0<>0<>e4ab985f16082b186138f900a528ff6a<>res://.godot/imported/TX Shadow.png-450622b7ded38cb264f8e95a8d5786d2.ctex::
+TX Struct.png::CompressedTexture2D::2008901534341131753::1756693919::1790356957::1::::<><><>0<>0<>e0d844d9de608e01ef8fdc4f748e44ea<>res://.godot/imported/TX Struct.png-b0a7298772088cac3f25609e20779b61.ctex::
+TX Tileset Grass.png::CompressedTexture2D::124438112379507611::1729136304::1790356957::1::::<><><>0<>0<>46af29a4ad9141c7287938b308ef9b6e<>res://.godot/imported/TX Tileset Grass.png-0b87e1d825addcca42b9a85fc5f0ef45.ctex::
+TX Tileset Stone Ground.png::CompressedTexture2D::5635179237397939762::1729136304::1790356957::1::::<><><>0<>0<>8d55392b62646c617194b64f34ad56f7<>res://.godot/imported/TX Tileset Stone Ground.png-e6f2946fff090d442112d7a5319791fd.ctex::
+TX Tileset Wall.png::CompressedTexture2D::3510097692749853227::1747818453::1790356957::1::::<><><>0<>0<>19ae7cc5b1a2d513ee5a457b10438dba<>res://.godot/imported/TX Tileset Wall.png-9a7e2dfd711437eb01c5829cd134d31c.ctex::
+::res://assets/sprite/Texture/Extra/::1790356957
+TX Plant with Shadow.png::CompressedTexture2D::3931841322080741426::1747884222::1790356957::1::::<><><>0<>0<>b90aa47d2968498a6c4d2172e0257cdf<>res://.godot/imported/TX Plant with Shadow.png-f4d3815080e243015167a9777badb93e.ctex::
+TX Props with Shadow.png::CompressedTexture2D::8345745123014966343::1747884246::1790356957::1::::<><><>0<>0<>c1b26f623dcdd898e34a9bf58d83ea0f<>res://.godot/imported/TX Props with Shadow.png-e0a26180ed201d40c95f60805e7d5e34.ctex::
+::res://assets/sprite/tilemaps/::1790356957
+autumn tilemap.png::CompressedTexture2D::1354405344227981173::1677771300::1790356957::1::::<><><>0<>0<>aaf8d956652df6cdd795467492d801ff<>res://.godot/imported/autumn tilemap.png-92c5a2a0cfd1fb1750a8f63a8f1e9406.ctex::
+bridges.png::CompressedTexture2D::532391052357081739::1677881728::1790356957::1::::<><><>0<>0<>7091a949b4797974551aecd1f7d30239<>res://.godot/imported/bridges.png-813b8d0ef31ea8e4e606f58f88892082.ctex::
+inside.png::CompressedTexture2D::925133857758597774::1677170108::1790356957::1::::<><><>0<>0<>dbc71df7294f5e7ffd64151aad935afc<>res://.godot/imported/inside.png-b435fe1763bfd219cc15842ef37e4aaa.ctex::
+spring tilemap.png::CompressedTexture2D::1697196949973532870::1677703234::1790356957::1::::<><><>0<>0<>8d73aaddc07e7246c8c70afaf644ac52<>res://.godot/imported/spring tilemap.png-b29b49d7919ecba98716bf565408365c.ctex::
+summer tilemap.png::CompressedTexture2D::1096230618053611704::1677766376::1790356957::1::::<><><>0<>0<>d2d90a90518291891c1233037cf0699e<>res://.godot/imported/summer tilemap.png-9926b4d7ef32b5b20e1a2fdee99a31c3.ctex::
+winter outside.png::CompressedTexture2D::1901578783436526579::1677764530::1790356957::1::::<><><>0<>0<>bed2a7640306639749f15c1a8b53f287<>res://.godot/imported/winter outside.png-6bfc0dac2fe42dbff38b1e56f6c21bc0.ctex::
+::res://assets/sprite/tilemaps/animated tiles/::1790356930
 ::res://assets/ui/::1790098830
 ::res://resources/::1790099032
-::res://scenes/::1790098924
-::res://scenes/city/::1790103022
-test_area.tscn::PackedScene::5405463857846544055::1790103022::0::1::::<><><>0<>0<><>::uid://pit0tgd15s36::::res://scenes/player/player.tscn
+::res://scenes/::1790360953
+::res://scenes/city/::1790363355
+city.tscn::PackedScene::5717663768459548947::1790363350::0::1::::<><><>0<>0<><>::uid://pva01nco3gc3::::res://assets/sprite/tilemaps/summer tilemap.png<>uid://bqak2cmt3cm3t::::res://assets/sprite/Texture/TX Tileset Wall.png<>uid://pit0tgd15s36::::res://scenes/player/player.tscn
+dungeon.tscn::PackedScene::3862837000294887248::1790363348::0::1::::<><><>0<>0<><>::
+test_area.tscn::PackedScene::5405463857846544055::1790363355::0::1::::<><><>0<>0<><>::uid://pit0tgd15s36::::res://scenes/player/player.tscn<>uid://1qv6bpthbe0d::::res://scenes/enemies/dummy_enemy.tscn
 ::res://scenes/dungeon/::1790098905
-::res://scenes/enemies/::1790098883
+::res://scenes/enemies/::1790363352
+dummy_enemy.tscn::PackedScene::1859270471681034493::1790363352::0::1::::<><><>0<>0<><>::uid://ctjnvnvjeov0m::::res://scripts/enemies/dummy_enemy.gd
 ::res://scenes/items/::1790098914
-::res://scenes/player/::1790103152
-player.tscn::PackedScene::1070546951697880335::1790103152::0::1::::<><><>0<>0<><>::uid://bwwr3cv635xsy::::res://scripts/player/player.gd
+::res://scenes/player/::1790363353
+player.tscn::PackedScene::1070546951697880335::1790363353::0::1::::<><><>0<>0<><>::uid://bwwr3cv635xsy::::res://scripts/player/player.gd
+::res://scenes/systems/::1790363921
+dungeon_entrance.tscn::PackedScene::2676838925381882606::1790363921::0::1::::<><><>0<>0<><>::uid://7h8akqmjcejx::::res://scripts/systems/dungeon_entrance.gd
 ::res://scenes/ui/::1790098924
 ::res://scripts/::1790099006
-::res://scripts/enemies/::1790098956
+::res://scripts/enemies/::1790273524
+dummy_enemy.gd::GDScript::6125836334532606402::1790273524::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://scripts/items/::1790098974
-::res://scripts/player/::1790102508
-player.gd::GDScript::3977073884360210472::1790102508::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/systems/::1790098964
+::res://scripts/player/::1790272172
+player.gd::GDScript::3977073884360210472::1790273299::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/systems/::1790361093
+dungeon_entrance.gd::GDScript::2262497851964455801::1790361112::0::1::::<>Area2D<><>0<>0<><>::
 ::res://scripts/ui/::1790098984

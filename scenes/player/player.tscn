@@ -1,33 +1,16 @@
-[gd_scene format=3 uid="uid://pit0tgd15s36"]
-
-[ext_resource type="Script" uid="uid://bwwr3cv635xsy" path="res://scripts/player/player.gd" id="1_8afob"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_gatd3"]
-size = Vector2(32, 48)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ufgfk"]
-size = Vector2(32, 24)
-
-[node name="Player" type="CharacterBody2D" unique_id=1738159995]
-script = ExtResource("1_8afob")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1814518914]
-shape = SubResource("RectangleShape2D_gatd3")
-debug_color = Color(0, 0.6, 0.69803923, 1)
-
-[node name="Polygon2D" type="Polygon2D" parent="." unique_id=622710217]
-color = Color(1, 0.06666667, 0, 1)
-polygon = PackedVector2Array(-16, -24, 15, -24, 16, 24, -16, 24)
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=791426921]
-
-[node name="WeaponPivot" type="Node2D" parent="." unique_id=900057351]
-
-[node name="Hitbox" type="Area2D" parent="WeaponPivot" unique_id=1184295682]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="WeaponPivot/Hitbox" unique_id=778350150]
-position = Vector2(24, 0)
-shape = SubResource("RectangleShape2D_ufgfk")
-
-[node name="SwordSprite" type="Polygon2D" parent="WeaponPivot/Hitbox" unique_id=647096256]
-polygon = PackedVector2Array(8, -12, 40, -12, 41, 12, 8, 12)
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/player/player.gd" id="1"]
+[sub_resource type="CircleShape2D" id="1"]
+radius = 23.0
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1")
+[node name="Camera2D" type="Camera2D" parent="."]
+enabled = true
+[node name="WeaponPivot" type="Node2D" parent="."]
+[node name="Hitbox" type="Area2D" parent="WeaponPivot"]
+monitoring = false
+collision_layer = 0
+collision_mask = 4
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WeaponPivot/Hitbox"]
+position = Vector2(28, 0)
+shape = SubResource("1")

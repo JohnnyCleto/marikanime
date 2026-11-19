@@ -27,7 +27,7 @@ A versão atual é um **protótipo de validação**: apresenta um recorte jogáv
 
 O jogo combina três eixos: **cotidiano**, **exploração** e **RPG de ação**. A parte cotidiana se inspira na atmosfera de férias e pequenas descobertas de *Boku no Natsuyasumi*; a estrutura de rotina, relacionamentos e exploração dialoga com *Stardew Valley* e *Persona*; e o combate com equipamentos rápidos tem referências em *Terraria*. São referências de mecânicas e direção, não uma reprodução desses jogos.
 
-Também utilizei um guia de outro jogo como referência **exclusivamente para ideias não adultas** de progressão por eventos, conversas diárias, gatos, caminhos bloqueados e reparo de pontes. **O Marikanime não inclui conteúdo sexual ou eventos +18.**
+Também utilizei um guia de outro jogo como referência de progressão por eventos, conversas diárias, gatos, caminhos bloqueados e reparo de pontes. 
 
 ## Evolução do desenvolvimento
 
@@ -44,8 +44,6 @@ Depois acrescentei uma pequena praça, a Tia Helena, objetos examináveis e um c
 Na versão atual, reuni os dois caminhos em **um único fluxo**: o jogador começa na cidade, conversa, encontra o gato, conclui a primeira missão, libera a entrada da masmorra, combate inimigos e pode retornar à cidade. A troca de ambiente preserva o mesmo personagem e o estado global da partida.
 
 ## Mecânicas presentes no código da V4
-
-> Os itens desta seção estão **programados no código-fonte**. Isso não significa que todos tenham sido validados em uma execução completa na Godot; a verificação no editor continua pendente.
 
 ### 1. Personagem e movimentação
 

@@ -45,8 +45,6 @@ Na versão atual, reuni os dois caminhos em **um único fluxo**: o jogador come�
 
 ## Mecânicas presentes no código da V4
 
-> Os itens desta seção estão **programados no código-fonte**. Isso não significa que todos tenham sido validados em uma execução completa na Godot; a verificação no editor continua pendente.
-
 ### 1. Personagem e movimentação
 
 - `CharacterBody2D` com movimento em **oito direções**, via `Input.get_vector()`.

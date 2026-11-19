@@ -27,7 +27,7 @@ A versão atual é um **protótipo de validação**: apresenta um recorte jogáv
 
 O jogo combina três eixos: **cotidiano**, **exploração** e **RPG de ação**. A parte cotidiana se inspira na atmosfera de férias e pequenas descobertas de *Boku no Natsuyasumi*; a estrutura de rotina, relacionamentos e exploração dialoga com *Stardew Valley* e *Persona*; e o combate com equipamentos rápidos tem referências em *Terraria*. São referências de mecânicas e direção, não uma reprodução desses jogos.
 
-Também utilizei um guia de outro jogo como referência **exclusivamente para ideias não adultas** de progressão por eventos, conversas diárias, gatos, caminhos bloqueados e reparo de pontes. **O Marikanime não inclui conteúdo sexual ou eventos +18.**
+Também utilizei um guia de outro jogo como referência de progressão por eventos, conversas diárias, gatos, caminhos bloqueados e reparo de pontes. 
 
 ## Evolução do desenvolvimento
 
